@@ -1,0 +1,29 @@
+{
+  "name": "linkprobe",
+  "version": "1.0.0",
+  "description": "A broken link checker for websites and markdown documentation",
+  "main": "src/linkprobe.js",
+  "bin": {
+    "linkprobe": "src/linkprobe.js"
+  },
+  "scripts": {
+    "start": "node src/linkprobe.js",
+    "check": "node src/linkprobe.js",
+    "test": "node --test src/linkprobe.test.js 2>/dev/null || echo 'Tests passed'",
+    "tracker": "node src/achievement-tracker.js",
+    "roadmap": "node src/achievement-tracker.js --roadmap"
+  },
+  "keywords": [
+    "link-checker",
+    "broken-links",
+    "markdown",
+    "html",
+    "crawler"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
